@@ -8,7 +8,7 @@ public class PlugXRWidgets {
 
     public void CallUrl(Context context,String Url){
 
-        Intent callurl = new Intent(android.content.Intent.ACTION_VIEW,Uri.parse("https://www.google.com/"));
+        Intent callurl = new Intent(android.content.Intent.ACTION_VIEW,Uri.parse(Url));
         context.startActivity(callurl);
 
     }
